@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- <gradient android:startColor="@color/red" android:endColor="@color/white" android:type="radial"/> -->
+    <item>
+    <shape android:shape="oval">
+    <gradient
+        android:startColor="@color/red11"
+        android:endColor="@color/red9"
+        android:type="linear" />
+    <corners android:radius="50dp"/>
+    </shape>
+    </item>
+    <item android:bottom="0dp" android:left="0dp" android:right="0dp" android:top="0dp">
+        <shape android:shape="oval">
+            <solid android:color="@android:color/transparent"/> <!-- Transparent background for border -->
+            <stroke
+                android:width="20dp"
+                android:color="@color/red7"/><!-- Border color -->
+
+            <corners android:radius="50dp"/> <!-- Rounded corners -->
+        </shape>
+
+    </item>
+    <item android:bottom="0dp" android:left="0dp" android:right="0dp" android:top="0dp">
+        <shape android:shape="oval">
+            <solid android:color="@android:color/transparent"/> <!-- Transparent background for border -->
+            <stroke
+                android:width="10dp"
+                android:color="@color/white6"/><!-- Border color -->
+
+            <corners android:radius="50dp"/> <!-- Rounded corners -->
+        </shape>
+
+    </item>
+
+</layer-list>

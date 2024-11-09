@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".Alert_one">
+
+
+    <TextView
+        android:id="@+id/heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="115dp"
+        android:fontFamily="@font/playfairdisplay_bold"
+        android:text="ARE YOU SAFE?"
+        android:textColor="@color/red5"
+        android:textSize="32sp"
+        app:layout_constraintBottom_toTopOf="@+id/relativeLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.139"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5"
+        app:layout_constraintVertical_bias="0.02" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="80dp"
+        android:layout_height="82dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.06"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/icon" />
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="390dp"
+        android:orientation="vertical"
+        android:padding="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <Button
+            android:id="@+id/text"
+            android:layout_width="match_parent"
+            android:layout_height="187dp"
+            android:layout_below="@+id/location"
+            android:layout_marginStart="160dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/button_two"
+            android:fontFamily="@font/poppins_semibold"
+            android:text="Send Emergency Text Message"
+            android:textColor="@color/white5"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/camera"
+            android:layout_width="match_parent"
+            android:layout_height="85dp"
+            android:layout_below="@+id/location"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="230dp"
+            android:background="@drawable/button_three"
+            android:fontFamily="@font/poppins_medium"
+            android:text="Take a Picture"
+            android:textColor="@color/red10"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/call"
+            android:layout_width="match_parent"
+            android:layout_height="95dp"
+            android:layout_below="@+id/camera"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="230dp"
+            android:background="@drawable/button_three"
+            android:fontFamily="@font/poppins_medium"
+            android:text="Make a Phone Call"
+            android:textColor="@color/red10"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/location"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="@drawable/button_three"
+            android:fontFamily="@font/poppins_medium"
+            android:text="Share Your Location"
+            android:textColor="@color/red10"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/home"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_below="@+id/text"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/button_three"
+            android:backgroundTint="@color/violet8"
+            android:fontFamily="@font/poppins_medium"
+            android:text="Return to Dashboard"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/subhead"
+        android:layout_width="371dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="14dp"
+        android:fontFamily="@font/poppins_medium"
+        android:text="Are you feeling safe? help is just a tap away
+Take action!"
+        android:textColor="@color/black2"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/relativeLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/heading" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

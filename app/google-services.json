@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "408495266781",
+    "project_id": "safecircle-database",
+    "storage_bucket": "safecircle-database.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:408495266781:android:3778fd3f1f27de8c0c7434",
+        "android_client_info": {
+          "package_name": "com.example.safecircle"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAgE38HEyJM5NwLDPVi9KAeVXy3-i_ywSw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
